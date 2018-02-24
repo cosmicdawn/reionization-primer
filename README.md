@@ -1,7 +1,7 @@
 # Primer on the Epoch of Reionization
 
 In this series of notebooks I attempt to show the general *mathematical and computational* idea behind simulating the EoR using 
-excursion set formalism. This approach is computationally much cheaper compared to the radiation transfer simulation. 
+excursion set formalism. This approach is computationally much cheaper compared to the radiation transfer simulations. 
 The excursion set formalism was first proposed to be used in this context by 
 [Fulanetto et al. (2004)](https://ui.adsabs.harvard.edu/#abs/2004ApJ...613....1F/abstract). 
 Since then it was refined and modified in different ways. Probably the most popular implementation of this algorithm is 
@@ -52,7 +52,9 @@ Again we consider two cases:
 one can account for the large scale velocities in the IGM by considering bubbles in the Lagrangian space.
 
 
-5. Finally in the last notebook we model the [stochastic component](05_Stochasticity.ipynb) which originates in the asymmetry of 
+5. The fifth notebook focuses on the [stochastic component](05_Stochasticity.ipynb) which originates in the asymmetry of 
 ionization escape fraction and the bursty star formation.
 The importance of this effect is studied in [Kaurov (2017)](https://ui.adsabs.harvard.edu/#abs/2017arXiv170904353K/abstract).
+
+6. [In this notebook](06_All_in_one.ipynb) we put everything into [a module](reionprimer.py) and explore the model that we built in the previous sections.
 
